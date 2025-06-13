@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="zxx" class="no-js">
+
+<head>
+	<!-- Mobile Specific Meta -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<!-- Favicon-->
+	<link rel="shortcut icon" href="img/fav.png">
+	<!-- Author Meta -->
+	<meta name="author" content="CodePixar">
+	<!-- Meta Description -->
+	<meta name="description" content="">
+	<!-- Meta Keyword -->
+	<meta name="keywords" content="">
+	<!-- meta character set -->
+	<meta charset="UTF-8">
+	<!-- Site Title -->
+	<title>ChildrenShoes</title>
+	<!--
+		CSS
+		============================================= -->
+	<link rel="stylesheet" href="css/linearicons.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/themify-icons.css">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/owl.carousel.css">
+	<link rel="stylesheet" href="css/nice-select.css">
+	<link rel="stylesheet" href="css/nouislider.min.css">
+	<link rel="stylesheet" href="css/ion.rangeSlider.css" />
+	<link rel="stylesheet" href="css/ion.rangeSlider.skinFlat.css" />
+	<link rel="stylesheet" href="css/magnific-popup.css">
+	<link rel="stylesheet" href="css/main.css">
+
+	<style>
+		body {
+			background-color: white;
+		}
+
+		h6 {
+			color: #222222;
+		}
+
+		.centralizado {
+			height: 120px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			gap: 1rem;
+		}
+
+		#search_input_box {
+			background: #dab8e7;
+			background-color: #dab8e7;
+		}
+	</style>
+
+</head>
+
+<body>
+
+	<!-- Start Header Area -->
+	<header class="header_area sticky-header">
+		<div class="main_menu">
+			<nav class="navbar navbar-expand-lg navbar-light main_box">
+				<div class="container">
+					<!-- Brand and toggle get grouped for better mobile display -->
+					<a class="navbar-brand logo_h" href="index.html"><img src="img/logo.png" alt=""></a>
+					<button class="navbar-toggler" type="button" data-toggle="collapse"
+						data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+						aria-expanded="false" aria-label="Toggle navigation">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<!-- Collect the nav links, forms, and other content for toggling -->
+					<div class="collapse navbar-collapse offset" id="navbarSupportedContent">
+						<ul class="nav navbar-nav menu_nav ml-auto">
+							<li class="nav-item active"><a class="nav-link" href="index.html"
+									style="color: #ffe6fb;">Home</a></li>
+
+						</ul>
+						<ul class="nav navbar-nav navbar-right">
+							<li class="nav-item"><a href="#" class="cart"><span class="ti-bag"></span></a></li>
+							<li class="nav-item">
+								<button class="search"><span class="lnr lnr-magnifier" id="search"></span></button>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+		</div>
+		<div class="search_input" id="search_input_box" style="background-color: #dab8e7;">
+			<div class="container" style="background-color: #dab8e7;">
+				<form style="background-color: #dab8e7;" class="d-flex justify-content-between">
+					<input style="background-color: #dab8e7;" type="text" class="form-control" id="search_input"
+						placeholder="Pesquisar" onkeyup="buscarSugestoes()">
+					<button type="submit" class="btn"></button>
+					<span class="lnr lnr-cross" id="close_search" title="Close Search"></span>
+				</form>
+			</div>
+		</div>
+	</header>
+	<!-- End Header Area -->
+
+	<!-- start banner Area -->
+	<section class="banner-area">
+		<div class="container">
+			<div class="row fullscreen align-items-center justify-content-start">
+				<div class="col-lg-12">
+					<div class="active-banner-slider owl-carousel">
+						<!-- single-slide -->
+						<div class="row single-slide align-items-center d-flex">
+							<div class="col-lg-5 col-md-6">
+								<div class="banner-content">
+									<h1>Nova Coleção <br>Temática!</h1>
+									<p>⚡ Prepare-se para a velocidade! ⚡
+										A nova coleção inspirada no Sonic 3 - O Filme chegou para acelerar o seu estilo!
+										Com peças exclusivas e design único, essa coleção vai te levar direto ao
+										universo do ouriço mais famoso dos videogames. Não perca tempo, corra para
+										garantir o seu! 🦔💨</p>
+									<div class="add-bag d-flex align-items-center">
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-7">
+								<div class="banner-img">
+									<img id="banner" class="img-fluid" src="img/banner/banner-img.png" alt="">
+								</div>
+							</div>
+						</div>
+						<!-- single-slide -->
+						<div class="row single-slide align-items-center d-flex">
+							<div class="col-lg-5">
+								<div class="banner-content">
+									<h1>Nova Coleção <br>Temática!</h1>
+									<p>⚡ Prepare-se para a velocidade! ⚡
+										A nova coleção inspirada no Sonic 3 - O Filme chegou para acelerar o seu estilo!
+										Com peças exclusivas e design único, essa coleção vai te levar direto ao
+										universo do ouriço mais famoso dos videogames. Não perca tempo, corra para
+										garantir o seu! 🦔💨</p>
+									<div class="add-bag d-flex align-items-center">
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-7">
+								<div class="banner-img">
+									<img class="img-fluid" src="img/product/sonic.jpg" alt="">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- End banner Area -->
+
+	<div class="centralizado">
+		<button type="button" class="btn text-white" style="background-color: #dab8e7;"
+			onclick="mostrarProdutos()">Mostrar produtos</button>
+		<button type="button" class="btn text-white" style="background-color: #c9f1ff;" onclick="mudarTema()">Mudar cor
+			do fundo</button>
+	</div>
+
+
+
+	<!-- start product Area -->
+	<div class="row" id="lista-produtos" style="display: none;">
+		<!-- Produtos da API serão inseridos aqui -->
+	</div>
+	<!-- end product Area -->
+
+
+
+
+
+	<!-- start footer Area -->
+	<footer class="footer-area section_gap" style="background-color: #c9f1ff;">
+		<div class="container">
+			<div class="row">
+			</div>
+			<div class="footer-bottom d-flex justify-content-center align-items-center flex-wrap"
+				style="background-color: #c9f1ff;">
+				<p class="footer-text m-0">
+					<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+					Copyright &copy;
+					<script>document.write(new Date().getFullYear());</script>
+					<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+				</p>
+			</div>
+		</div>
+	</footer>
+	<!-- End footer Area -->
+
+	<script src="js/vendor/jquery-2.2.4.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"
+		integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4"
+		crossorigin="anonymous"></script>
+	<script src="js/vendor/bootstrap.min.js"></script>
+	<script src="js/jquery.ajaxchimp.min.js"></script>
+	<script src="js/jquery.nice-select.min.js"></script>
+	<script src="js/jquery.sticky.js"></script>
+	<script src="js/nouislider.min.js"></script>
+	<script src="js/countdown.js"></script>
+	<script src="js/jquery.magnific-popup.min.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
+	<!--gmaps Js-->
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCjCGmQ0Uq4exrzdcL6rvxywDDOvfAu6eE"></script>
+	<script src="js/gmaps.min.js"></script>
+	<script src="js/main.js"></script>
+	<script src="js/produtos.js"></script>
+
+	<script>
+	let produtosVisiveis = false;
+
+	async function mostrarProdutos() {
+		const secao = document.getElementById("lista-produtos");
+
+		if (!produtosVisiveis) {
+			// Mostra e carrega produtos
+			try {
+				const resposta = await fetch('http://localhost:3000/api/produtos');
+				const produtos = await resposta.json();
+
+				secao.innerHTML = '';
+
+				produtos.forEach(produto => {
+					const produtoHTML = `
+					<div class="col-lg-3 col-md-6 single-product-container">
+						<div class="single-product">
+							<img class="img-fluid" src="${produto.imagem}" alt="">
+							<div class="product-details">
+								<h6>${produto.nome}</h6>
+								<div class="price">
+									<h6>${produto.preco}</h6>
+								</div>
+								<div class="prd-bottom">
+									<a href="#" class="social-info">
+										<span class="ti-bag" style="background-color: #dab8e7;"></span>
+										<p class="hover-text">Adicionar</p>
+									</a>
+									<a href="#" class="social-info">
+										<span class="lnr lnr-heart" style="background-color: #dab8e7;"></span>
+										<p class="hover-text">Wishlist</p>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					`;
+					secao.innerHTML += produtoHTML;
+				});
+
+				secao.style.display = "flex";
+				secao.style.flexWrap = "wrap";
+				produtosVisiveis = true;
+			} catch (erro) {
+				console.error('Erro ao carregar produtos:', erro);
+			}
+
+		} else {
+			// Esconde os produtos
+			secao.style.display = "none";
+			secao.innerHTML = '';
+			produtosVisiveis = false;
+		}
+	}
+</script>
+
+
+	<script>
+
+
+		function buscarSugestoes() {
+			const input = document.getElementById("search_input").value.toLowerCase();
+			const produtos = document.querySelectorAll(".single-product-container");
+
+			produtos.forEach(produto => {
+				const nomeProduto = produto.querySelector("h6").textContent.toLowerCase();
+
+				if (nomeProduto.includes(input)) {
+					produto.style.display = "block";
+				} else {
+					produto.style.display = "none";
+				}
+			});
+		}
+
+
+		function mudarTema() {
+			const body = document.body;
+			const h6s = document.querySelectorAll("h6");
+			const banner = document.querySelector(".banner-area");
+
+			const ps = document.querySelectorAll("p");
+			const h1s = document.querySelectorAll("h1");
+
+			const corAtual = window.getComputedStyle(body).backgroundColor;
+
+			if (corAtual === "rgb(71, 70, 70)") {
+				// Volta para o claro
+				body.style.backgroundColor = "white";
+				h6s.forEach(h6 => h6.style.color = "#222222");
+
+				h1s.forEach(h1 => h1.style.color = "#222222");
+				ps.forEach(p => p.style.color = "#777777");
+				banner.style.backgroundImage = "url('../img/banner/banner-bg.jpg')";
+			} else {
+				// Vai para o escuro
+				body.style.backgroundColor = "#474646";
+				h6s.forEach(h6 => h6.style.color = "white");
+
+				h1s.forEach(h1 => h1.style.color = "white");
+				ps.forEach(p => p.style.color = "white");
+				banner.style.backgroundImage = "url('../img/banner/banner-dark.jpg')";
+			}
+		}
+
+	</script>
+
+</body>
+
+</html>

@@ -1,0 +1,116 @@
+{
+  "produtos": [
+    {
+      "id": 1,
+      "nome": "Sandália Infantil Barbie",
+      "preco": 59.9,
+      "preco_antigo": 89.9,
+      "imagem": "img/product/p1.jpg"
+    },
+    {
+      "id": 2,
+      "nome": "Tênis Infantil Ludique x Minecraft",
+      "preco": 149.9,
+      "preco_antigo": 210.0,
+      "imagem": "img/product/p2.jpg"
+    },
+    {
+      "id": 3,
+      "nome": "Tênis Infantil Homem-Aranha",
+      "preco": 239.9,
+      "preco_antigo": 349.9,
+      "imagem": "img/product/p3.jpg"
+    },
+    {
+      "id": 4,
+      "nome": "Roblox kids star modelo novo",
+      "preco": 55.9,
+      "preco_antigo": 89.9,
+      "imagem": "img/product/p4.jpg"
+    },
+    {
+      "id": 5,
+      "nome": "Sapatilha My Little Pony Fluttershy",
+      "preco": 43.9,
+      "preco_antigo": 59.9,
+      "imagem": "img/product/p5.jpg"
+    },
+    {
+      "id": 6,
+      "nome": "Sandália crocs shrek classic",
+      "preco": 210.0,
+      "preco_antigo": 259.0,
+      "imagem": "img/product/p6.jpg"
+    },
+    {
+      "id": 7,
+      "nome": "Sapato Led Infantil Sonic Personagem",
+      "preco": 69.9,
+      "preco_antigo": 90.5,
+      "imagem": "img/product/p7.jpg"
+    },
+    {
+      "id": 8,
+      "nome": "Tênis Luccas Neto Neoprene Verde",
+      "preco": 49.99,
+      "preco_antigo": 60.0,
+      "imagem": "img/product/p8.jpg"
+    },
+    {
+      "id": 9,
+      "nome": "Omnitrix Turbo - Tênis Infantil Ben 10",
+      "preco": 139.9,
+      "preco_antigo": 189.9,
+      "imagem": "img/product/p9.jpg"
+    },
+    {
+      "id": 10,
+      "nome": "Paris Style by Ladybug - Tênis Kid Fashion",
+      "preco": 129.9,
+      "preco_antigo": 179.9,
+      "imagem": "img/product/p10.jpg"
+    },
+    {
+      "id": 11,
+      "nome": "Rasengan Speed - Tênis Infantil Naruto Ninja",
+      "preco": 159.9,
+      "preco_antigo": 199.9,
+      "imagem": "img/product/p11.jpg"
+    },
+    {
+      "id": 12,
+      "nome": "Pikachu Glow - Sapato Infantil Pokémon",
+      "preco": 109.9,
+      "preco_antigo": 139.9,
+      "imagem": "img/product/p12.jpg"
+    },
+    {
+      "id": 13,
+      "nome": "Lua Nova Twilight - Chinelo Crepúsculo Teen",
+      "preco": 49.9,
+      "preco_antigo": 69.9,
+      "imagem": "img/product/p13.jpg"
+    },
+    {
+      "id": 14,
+      "nome": "Doce Encanto Garden - Sapatilha Moranguinho Baby",
+      "preco": 69.9,
+      "preco_antigo": 89.9,
+      "imagem": "img/product/p14.jpg"
+    },
+    {
+      "id": 15,
+      "nome": "Victory Royale Power - Meia Fortnite Gamer",
+      "preco": 29.9,
+      "preco_antigo": 39.9,
+      "imagem": "img/product/p15.jpg"
+    },
+    {
+      "id": 16,
+      "nome": "Supercell Strike - Chinelo Infantil Brawl Stars",
+      "preco": 44.9,
+      "preco_antigo": 59.9,
+      "imagem": "img/product/p16.jpg"
+    }
+  ]
+}
